@@ -1,0 +1,10 @@
+{
+  // VS Code предложит установить эти расширения при открытии папки
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.debugpy",
+    "charliermarsh.ruff",
+    "humao.rest-client",
+    "streetsidesoftware.code-spell-checker-russian"
+  ]
+}

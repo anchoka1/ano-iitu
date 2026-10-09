@@ -1,0 +1,69 @@
+/*
+  Дизайн-токены ANO IITU — палитра университета (логотип и сайт https://iitu.edu.kz/ru/).
+
+  Откуда значения (сверено 2026-10-07):
+    - логотип logoNav.svg / logo_main_horizontal.svg: малиновый #A42421 и графит #232323;
+    - /static/bundle/tailwind.css:  .bg-crimson-red = #A42421, .bg-light-grey = #EDEDED;
+    - /static/css/new_design.css:   шрифт "Inter Tight" (300–800), текст меню #383838, границы #e0e0e0 / #d1d5db;
+    - разметка страниц:             text-[#232323], bg-[#f5f5f5], заголовки font-extrabold uppercase, нумерация «/01».
+  Остальные оттенки — производные от двух цветов логотипа (светлее/темнее), чтобы палитра была одной по всему приложению.
+  Смысловые цвета результата проверки (зелёный/жёлтый/красный/серый) — те же, что в боте и на картинке.
+*/
+
+:root {
+  /* --- бренд: два цвета логотипа и их оттенки --- */
+  --iitu-crimson: #A42421;
+  --iitu-crimson-hover: #8A1D1B;
+  --iitu-crimson-deep: #6E1614;
+  --iitu-crimson-bright: #C8322D;
+  --iitu-crimson-soft: #F6E4E3;     /* фон акцентных плашек */
+  --iitu-crimson-tint: #FBF1F0;
+  --iitu-ink: #232323;
+  --iitu-ink-2: #2E2A2A;
+  --iitu-text: #383838;
+  --iitu-gray-600: #4B5563;
+  --iitu-gray-500: #6B7280;
+  --iitu-gray-400: #9CA3AF;
+  --iitu-light-grey: #EDEDED;
+  --iitu-bg: #F5F5F5;
+  --iitu-white: #FFFFFF;
+  --iitu-line: #E0E0E0;
+  --iitu-line-strong: #D1D5DB;
+
+  /* --- смысловые цвета (результат проверки, статусы) --- */
+  --status-green: #1F9D55;
+  --status-yellow: #C98A00;
+  --status-red: #D64545;
+  --status-grey: #8C929C;
+  --status-support: #2F6FDE;
+
+  /* --- типографика --- */
+  --font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-size-base: 16px;
+  --line-height: 1.45;
+
+  /* --- форма: почти прямые углы, как на сайте, но карточкам — немного мягче --- */
+  --radius-xs: 2px;
+  --radius: 6px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+
+  /* --- глубина --- */
+  --shadow-1: 0 1px 2px rgba(35, 35, 35, .06), 0 1px 1px rgba(35, 35, 35, .04);
+  --shadow-2: 0 6px 18px -8px rgba(35, 35, 35, .22), 0 2px 4px rgba(35, 35, 35, .05);
+  --shadow-accent: 0 10px 24px -10px rgba(164, 36, 33, .55);
+
+  /* --- движение --- */
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  --dur: 220ms;
+
+  /* --- отступы (шкала 4px) --- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --gutter: 16px;
+  --page-max: 640px;
+}

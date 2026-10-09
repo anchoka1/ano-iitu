@@ -1,0 +1,30 @@
+{
+  // Интерпретатор Python из виртуального окружения проекта
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+
+  // Тесты во вкладке «Testing» (колба слева)
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["tests"],
+
+  // Форматирование Python при сохранении (расширение Ruff)
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true
+  },
+
+  // Кодировка и переводы строк — одинаково на всех ОС
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+
+  // Не показывать служебные папки
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true
+  },
+
+  // Кириллица в терминале Windows
+  "terminal.integrated.env.windows": { "PYTHONUTF8": "1" }
+}

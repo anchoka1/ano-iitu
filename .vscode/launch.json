@@ -1,0 +1,31 @@
+{
+  // F5 — запуск сервера вместе с ботом под отладчиком (можно ставить точки останова).
+  // Перед запуском выполняется задача «Подготовка» (venv, зависимости, .env, база).
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ANO IITU: сервер + бот",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "backend.app.main",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "env": { "PYTHONUTF8": "1" },
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "preLaunchTask": "Подготовка"
+    },
+    {
+      "name": "ANO IITU: тесты",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "env": { "PYTHONUTF8": "1" },
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "preLaunchTask": "Подготовка"
+    }
+  ]
+}

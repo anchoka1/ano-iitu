@@ -1,0 +1,61 @@
+{
+  // Задачи: Ctrl+Shift+P -> «Tasks: Run Task» -> выберите задачу.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Подготовка",
+      "detail": "venv, зависимости, .env, база данных",
+      "type": "shell",
+      "windows": { "command": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run.ps1 -SetupOnly" },
+      "linux": { "command": "./run.sh --setup" },
+      "osx": { "command": "./run.sh --setup" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent", "panel": "shared" }
+    },
+    {
+      "label": "Запуск сервера и бота",
+      "type": "shell",
+      "windows": { "command": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run.ps1" },
+      "linux": { "command": "./run.sh" },
+      "osx": { "command": "./run.sh" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Демо-данные",
+      "detail": "проверки, договорённость, тренировка, семья — чтобы показать все экраны",
+      "type": "shell",
+      "windows": { "command": ".venv\\Scripts\\python scripts\\seed_demo.py" },
+      "linux": { "command": ".venv/bin/python scripts/seed_demo.py" },
+      "osx": { "command": ".venv/bin/python scripts/seed_demo.py" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Оценка качества (демо)",
+      "detail": "58 тестовых сообщений, без ИИ",
+      "type": "shell",
+      "windows": { "command": ".venv\\Scripts\\python evals\\run_eval.py --mock" },
+      "linux": { "command": ".venv/bin/python evals/run_eval.py --mock" },
+      "osx": { "command": ".venv/bin/python evals/run_eval.py --mock" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Оценка качества (реальный ИИ)",
+      "detail": "58 запросов к ИИ — нужен ключ в .env; на бесплатном тарифе может упереться в лимит",
+      "type": "shell",
+      "windows": { "command": ".venv\\Scripts\\python evals\\run_eval.py" },
+      "linux": { "command": ".venv/bin/python evals/run_eval.py" },
+      "osx": { "command": ".venv/bin/python evals/run_eval.py" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Тесты",
+      "type": "shell",
+      "windows": { "command": "powershell -NoProfile -ExecutionPolicy Bypass -File ./run.ps1 -Test" },
+      "linux": { "command": "./run.sh --test" },
+      "osx": { "command": "./run.sh --test" },
+      "group": { "kind": "test", "isDefault": true },
+      "problemMatcher": []
+    }
+  ]
+}

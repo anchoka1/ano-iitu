@@ -1,0 +1,370 @@
+{
+  "_comment": "Навигатор «Что тебя ждёт». Каждый пункт: status = confirmed (подтверждён официальной страницей, ссылка в source) | unconfirmed (предположение из черновика, официального подтверждения не найдено — показываем с пометкой) | corrected (черновик расходился с официальным источником — текст исправлен по источнику). events — id событий из calendar_*.json; services — id из services.json.",
+  "checked": "2026-10-07",
+  "courses": {
+    "1": {
+      "title": "1 курс",
+      "lead": "Год адаптации: разберись с системой, сервисами и людьми, к которым идти.",
+      "items": [
+        {
+          "title": "Ориентационная неделя",
+          "text": "Первая неделя до начала занятий — знакомство с университетом и учебным процессом.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "orientation"
+          ],
+          "new": true
+        },
+        {
+          "title": "Platonus и ИУП",
+          "text": "Индивидуальный учебный план (ИУП) заполняется и корректируется в системе platonus.iitu.edu.kz. Там же — актуальное расписание с заменами и переносами.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/student-guide/",
+          "events": [
+            "iup_fall",
+            "iup_spring"
+          ],
+          "services": [
+            "registrar"
+          ],
+          "new": true
+        },
+        {
+          "title": "Кредитная система и GPA",
+          "text": "Объём дисциплины обычно 5 кредитов, дисциплина длится один семестр. GPA — средневзвешенный балл: влияет на стипендию, отбор в академическую мобильность и скидки на обучение.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/student-guide/",
+          "new": true
+        },
+        {
+          "title": "Как складывается оценка",
+          "text": "Рубежный контроль проходит дважды за семестр. Итоговый экзамен — 40% итоговой оценки, остальное — текущий и рубежный контроль. Получил FX (25–49%) — можно пересдать только финальный экзамен.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/student-guide/",
+          "events": [
+            "midterm1_fall",
+            "midterm2_fall"
+          ],
+          "new": true
+        },
+        {
+          "title": "Эдвайзер",
+          "text": "Преподаватель выпускающей кафедры — твой академический наставник: помогает выбрать траекторию и составить ИУП.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/student-guide/",
+          "services": [
+            "advisor"
+          ],
+          "new": true
+        },
+        {
+          "title": "Офис-регистратор",
+          "text": "Ведёт историю твоих учебных достижений и организует контроль знаний. Есть виртуальный Офис-регистратор в Microsoft Teams — вопросы можно задавать в любое время.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/student-guide/",
+          "services": [
+            "registrar"
+          ],
+          "new": true
+        },
+        {
+          "title": "Общежитие",
+          "text": "Дом студентов доступен студентам МУИТ, приоритет — иногородним и первокурсникам. Условия, документы и стоимость — только на официальной странице.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/student-guide/",
+          "services": [
+            "dorm"
+          ]
+        },
+        {
+          "title": "Клубы и студенческая жизнь",
+          "text": "20+ студенческих организаций: от Debate Club и AWS Cloud Club до Enactus и MathForce. Хакатоны, IT Fest, посвящение в студенты.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/studencheskaia-zhizn/",
+          "services": [
+            "student_life"
+          ]
+        },
+        {
+          "title": "Первая сессия",
+          "text": "Зимняя экзаменационная сессия идёт после второго рубежного контроля; пересдача FX — в начале января.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "session_winter",
+            "fx_winter"
+          ],
+          "new": true
+        },
+        {
+          "title": "Академическая честность",
+          "text": "В МУИТ действует Кодекс академической честности: плагиат, списывание, покупка ответов и скрытое использование генеративного ИИ — нарушения. Все письменные работы проверяются на плагиат.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/about-university/regulatory-legal-framework/",
+          "new": true
+        }
+      ]
+    },
+    "2": {
+      "title": "2 курс",
+      "lead": "Год выбора: элективы, мобильность, первые практики.",
+      "items": [
+        {
+          "title": "ИУП и элективы",
+          "text": "Весной идёт регистрация на следующий учебный год: консультации по каталогу элективных дисциплин (КЭД) и формирование ИУП. Выбирай вместе с эдвайзером.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "ked_consult",
+            "iup_form"
+          ],
+          "services": [
+            "advisor"
+          ],
+          "new": true
+        },
+        {
+          "title": "Академическая мобильность",
+          "text": "Можно учиться 1–2 семестра в зарубежном вузе-партнёре с перезачётом кредитов. Документы на весенний семестр обычно принимают в октябре–ноябре, на осенний — в марте–апреле. Отбор — в первую очередь по GPA.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/iitu-international/",
+          "services": [
+            "international"
+          ],
+          "new": true
+        },
+        {
+          "title": "Производственная практика",
+          "text": "Для 2–3 года обучения — летом, объём и сроки зависят от учебного плана твоей ОП.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "practice_prod_4",
+            "practice_prod_6",
+            "practice_prod_7"
+          ],
+          "services": [
+            "career"
+          ],
+          "new": true
+        },
+        {
+          "title": "Военная кафедра",
+          "text": "Готовит офицеров и сержантов запаса (кибербезопасность, БПЛА и др.). Набор объявляется в новостях; с какого курса и как поступать — уточни на кафедре.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/military-department/",
+          "services": [
+            "military"
+          ],
+          "confirmed_by": "Сверено с университетом (2026-10-07)"
+        },
+        {
+          "title": "Хакатоны и стажировки",
+          "text": "Университет проводит хакатоны и встречи с работодателями; вакансии и стажировки — в Центре карьеры. Что именно доступно на 2 курсе — не указано, следи за новостями.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/career-center/",
+          "services": [
+            "career"
+          ],
+          "confirmed_by": "Сверено с университетом (2026-10-07)"
+        },
+        {
+          "title": "Летний семестр",
+          "text": "Платный, до 20 кредитов ECTS: закрыть задолженность, разницу в планах или поднять GPA. Регистрация — в начале июня.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/about-university/regulatory-legal-framework/",
+          "events": [
+            "summer_registration",
+            "summer_semester"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "title": "3 курс",
+      "lead": "Год профессии: практика, карьера, подготовка к диплому.",
+      "items": [
+        {
+          "title": "Практика",
+          "text": "Производственная практика летом для 2–3 года обучения, с отчётом по итогам. Объём (4, 6 или 7 кредитов) — по учебному плану ОП.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "practice_prod_4",
+            "practice_report_4"
+          ],
+          "services": [
+            "career"
+          ],
+          "new": true
+        },
+        {
+          "title": "Центр карьеры",
+          "text": "Консультации по карьере, помощь в поиске практики, стажировок и вакансий, ярмарки вакансий и встречи с работодателями.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/career-center/",
+          "services": [
+            "career"
+          ],
+          "new": true
+        },
+        {
+          "title": "Стажировки",
+          "text": "Путеводитель советует начинать искать стажировку минимум за 3–4 месяца до выпуска; актуальные вакансии публикует Центр карьеры.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/student-guide/",
+          "services": [
+            "career"
+          ]
+        },
+        {
+          "title": "Тема и руководитель диплома",
+          "text": "В черновике было «выбор руководителя и темы на 3 курсе». По официальному календарю темы дипломных работ определяют и утверждают осенью 4 курса. Подумать заранее и обсудить с кафедрой — хорошая идея, но официальный срок — 4 курс.",
+          "status": "corrected",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "g_thesis_topics"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "title": "4 курс",
+      "lead": "Финишная прямая: диплом, преддипломная практика, трудоустройство.",
+      "items": [
+        {
+          "title": "Тема диплома",
+          "text": "Определение тем — с начала сентября, утверждение — во второй половине октября. Корректировки — в январе.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "g_thesis_topics",
+            "g_thesis_approve",
+            "g_thesis_fix"
+          ],
+          "new": true
+        },
+        {
+          "title": "Короткий весенний семестр",
+          "text": "Теоретическое обучение весной идёт до середины марта, затем — модульный рубежный контроль и сессия в начале апреля.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "g_midterm_spring",
+            "g_session_spring"
+          ],
+          "new": true
+        },
+        {
+          "title": "Преддипломная практика",
+          "text": "С середины апреля до середины мая, потом — сдача отчётов.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "g_prediploma",
+            "g_reports"
+          ],
+          "new": true
+        },
+        {
+          "title": "Диплом и защита",
+          "text": "Оформление дипломного проекта и обязательная проверка на плагиат — во второй половине мая, итоговая аттестация — в июне.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "g_thesis_format",
+            "g_final"
+          ],
+          "new": true
+        },
+        {
+          "title": "Летний семестр недоступен",
+          "text": "Выпускному курсу запись на летний семестр не предусмотрена — закрывай задолженности заранее.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/about-university/regulatory-legal-framework/",
+          "new": true
+        },
+        {
+          "title": "Трудоустройство",
+          "text": "Центр карьеры помогает с вакансиями, резюме и собеседованиями; выпускникам-грантникам — с вопросами отработки гранта (совместно с АО «Финансовый центр»).",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/career-center/",
+          "services": [
+            "career"
+          ]
+        },
+        {
+          "title": "Магистратура",
+          "text": "Условия поступления — на странице магистратуры для абитуриентов. Бот не подтверждает сроки приёма — смотри официальную страницу.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/applicants/masters/",
+          "services": [
+            "reception"
+          ],
+          "confirmed_by": "Сверено с университетом (2026-10-07)"
+        }
+      ]
+    },
+    "master": {
+      "title": "Магистратура",
+      "lead": "Календарь магистратуры свой: выбери трек в профиле — 1 или 2 год, обычный или зимний приём — и бот покажет твои даты.",
+      "items": [
+        {
+          "title": "Академический календарь магистратуры",
+          "text": "Даты по твоему треку: ИУП в Platonus, рубежный контроль, сессии, исследовательская практика, отчёты по НИРМ, проверка на плагиат и защита диссертации. Трек указывается в профиле.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+          "events": [
+            "m2_defense",
+            "m2w25_defense",
+            "m1w26_session_winter",
+            "m1w27_session"
+          ],
+          "new": true
+        },
+        {
+          "title": "Офис-регистратор и эдвайзер",
+          "text": "Те же службы, что и у бакалавров: ИУП в Platonus, вопросы — в Офис-регистратор.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/student-guide/",
+          "services": [
+            "registrar",
+            "advisor"
+          ]
+        },
+        {
+          "title": "Библиотека и базы данных",
+          "text": "Scopus, Web of Science, IEEE Xplore, EBSCO, Wiley — доступ через библиотеку.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/library/",
+          "services": [
+            "library"
+          ]
+        }
+      ]
+    },
+    "phd": {
+      "title": "Докторантура",
+      "lead": "Бот пока не собирал отдельный навигатор для докторантов.",
+      "items": [
+        {
+          "title": "Научная деятельность",
+          "text": "Положения о научной деятельности, диссертационном совете и публикациях — в разделе «Наука» на сайте.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/science/nauchnaia-deiatelnost-universiteta/",
+          "confirmed_by": "Сверено с университетом (2026-10-07)"
+        },
+        {
+          "title": "Библиотека и базы данных",
+          "text": "Scopus, Web of Science, IEEE Xplore, EBSCO, Wiley — доступ через библиотеку.",
+          "status": "confirmed",
+          "source": "https://iitu.edu.kz/ru/for-students/library/",
+          "services": [
+            "library"
+          ]
+        }
+      ]
+    }
+  }
+}

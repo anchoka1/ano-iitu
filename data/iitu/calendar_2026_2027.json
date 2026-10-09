@@ -1,0 +1,1633 @@
+{
+  "_comment": "Академический календарь МУИТ на 2026–2027 учебный год (бакалавриат, дневная форма). Даты перенесены вручную из официальных PDF со страницы академического календаря (утверждён протоколом Учёного совета № 15 от 03.06.2026). Сверять при каждом обновлении PDF. Даты в коде не хранятся — только здесь. Магистратура (2026-10-07): треки m2, m1w26, m2w25, m1w27 — по четырём PDF; очевидные опечатки в годах помечены note.",
+  "academic_year": "2026-2027",
+  "year_start": "2026-08-24",
+  "checked": "2026-10-07",
+  "page_url": "https://iitu.edu.kz/ru/for-students/akademicheskii-kalendar/",
+  "documents": {
+    "b13": {
+      "title": "Академический календарь 2026–2027, бакалавриат, 1–3 год обучения",
+      "url": "https://iitu.edu.kz/documents/4489/%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C_%D0%BD%D0%B0_2026-2027_%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4%D0%B0_%D0%91%D0%B0%D0%BA%D0%B0%D0%BB%D0%B0%D0%B2%D1%80%D0%B8%D0%B0%D1%82_1-3_%D0%B3.%D0%BE.pdf"
+    },
+    "b4": {
+      "title": "Академический календарь 2026–2027, бакалавриат, 4 год обучения / 3 год сокращённого обучения",
+      "url": "https://iitu.edu.kz/documents/4488/%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C_%D0%BD%D0%B0_2026-2027_%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4%D0%B0_%D0%91%D0%B0%D0%BA%D0%B0%D0%BB%D0%B0%D0%B2%D1%80%D0%B8%D0%B0%D1%82_4%D0%B3.%D0%BE_3_%D0%B3%D0%BE%D0%B4%D0%B0_%D1%81%D1%81%D0%BE.pdf"
+    },
+    "m2": {
+      "title": "Академический календарь 2026–2027, магистратура 2 года обучения (научно-педагогическое)",
+      "url": "https://iitu.edu.kz/documents/4490/%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C_%D0%BD%D0%B0_2026-2027_%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_%D0%9C%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0_2_%D0%B3.%D0%BE.pdf"
+    },
+    "m1w26": {
+      "title": "Академический календарь 2026–2027, магистратура 1 года обучения, зимний приём 2026",
+      "url": "https://iitu.edu.kz/documents/4492/%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C_%D0%BD%D0%B0_2026-2027_%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_%D0%9C%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0_1_%D0%B3.%D0%BE_%D0%B7%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BF%D1%80%D0%B8%D0%B5%D0%BC_2026.pdf"
+    },
+    "m2w25": {
+      "title": "Академический календарь 2026–2027, магистратура 2 года обучения, зимний приём 2025",
+      "url": "https://iitu.edu.kz/documents/4491/%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C_%D0%BD%D0%B0_2026-2027_%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_%D0%9C%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0_2_%D0%B3.%D0%BE_%D0%B7%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BF%D1%80%D0%B8%D0%B5%D0%BC_2025.pdf"
+    },
+    "m1w27": {
+      "title": "Академический календарь 2026–2027, магистратура 1 года обучения, зимний приём 2027",
+      "url": "https://iitu.edu.kz/documents/4493/%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C_%D0%BD%D0%B0_2026-2027_%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_%D0%9C%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0_1_%D0%B3.%D0%BE_%D0%B7%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BF%D1%80%D0%B8%D0%B5%D0%BC_2027.pdf"
+    }
+  },
+  "events": [
+    {
+      "id": "orientation",
+      "doc": "b13",
+      "courses": [
+        "1"
+      ],
+      "kind": "start",
+      "remind": true,
+      "start": "2026-08-24",
+      "end": "2026-08-29",
+      "title": "Ориентационная неделя для первокурсников"
+    },
+    {
+      "id": "iup_fall",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2026-08-24",
+      "end": "2026-09-05",
+      "title": "Заполнение и корректировка ИУП в Platonus"
+    },
+    {
+      "id": "recredit_fall",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "admin",
+      "remind": false,
+      "start": "2026-08-24",
+      "end": "2026-09-05",
+      "title": "Перезачёт кредитов предыдущего образования (высшее и ТиПО)"
+    },
+    {
+      "id": "theory_fall",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "study",
+      "remind": false,
+      "start": "2026-09-01",
+      "end": "2026-12-12",
+      "title": "Теоретическое обучение, осенний семестр"
+    },
+    {
+      "id": "midterm1_fall",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2026-10-19",
+      "end": "2026-10-24",
+      "title": "Рубежный контроль 1 (осень)"
+    },
+    {
+      "id": "midterm2_fall",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2026-12-07",
+      "end": "2026-12-12",
+      "title": "Рубежный контроль 2 (осень)"
+    },
+    {
+      "id": "session_winter",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "session",
+      "remind": true,
+      "start": "2026-12-14",
+      "end": "2026-12-31",
+      "title": "Зимняя экзаменационная сессия"
+    },
+    {
+      "id": "holidays_winter",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "holidays",
+      "remind": false,
+      "start": "2027-01-01",
+      "end": "2027-01-16",
+      "title": "Зимние каникулы"
+    },
+    {
+      "id": "fx_winter",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "fx",
+      "remind": true,
+      "start": "2027-01-04",
+      "end": "2027-01-09",
+      "title": "Пересдача экзаменов (FX)"
+    },
+    {
+      "id": "recredit_winter",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "admin",
+      "remind": false,
+      "start": "2027-01-04",
+      "end": "2027-01-16",
+      "title": "Перезачёт кредитов"
+    },
+    {
+      "id": "transfer_winter",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "admin",
+      "remind": false,
+      "start": "2027-01-04",
+      "end": "2027-01-12",
+      "title": "Приём заявлений на внутренние и внешние переводы, восстановления"
+    },
+    {
+      "id": "iup_spring",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2027-01-04",
+      "end": "2027-01-16",
+      "title": "Заполнение и корректировка ИУП в Platonus (весна)"
+    },
+    {
+      "id": "theory_spring",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "study",
+      "remind": false,
+      "start": "2027-01-18",
+      "end": "2027-05-08",
+      "title": "Теоретическое обучение, весенний семестр"
+    },
+    {
+      "id": "midterm1_spring",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2027-03-09",
+      "end": "2027-03-15",
+      "title": "Рубежный контроль 1 (весна)"
+    },
+    {
+      "id": "ked_consult",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2027-03-15",
+      "end": "2027-03-20",
+      "title": "Регистрация на 2027–2028: консультации по каталогу элективных дисциплин (КЭД)"
+    },
+    {
+      "id": "iup_form",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2027-03-22",
+      "end": "2027-03-31",
+      "title": "Регистрация на 2027–2028: формирование ИУП"
+    },
+    {
+      "id": "midterm2_spring",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2027-05-03",
+      "end": "2027-05-10",
+      "title": "Рубежный контроль 2 (весна)"
+    },
+    {
+      "id": "session_spring",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "session",
+      "remind": true,
+      "start": "2027-05-11",
+      "end": "2027-05-31",
+      "title": "Весенняя экзаменационная сессия"
+    },
+    {
+      "id": "fx_spring",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "fx",
+      "remind": true,
+      "start": "2027-06-01",
+      "end": "2027-06-12",
+      "title": "Пересдача экзаменов (FX)"
+    },
+    {
+      "id": "summer_registration",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2027-06-01",
+      "end": "2027-06-12",
+      "title": "Регистрация на летний семестр"
+    },
+    {
+      "id": "practice_edu",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-06-01",
+      "end": "2027-06-14",
+      "title": "Учебная практика (2 кредита) — по учебному плану твоей ОП",
+      "note": "в соответствии с учебными планами образовательных программ"
+    },
+    {
+      "id": "practice_prod_4",
+      "doc": "b13",
+      "courses": [
+        "2",
+        "3"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-06-01",
+      "end": "2027-06-26",
+      "title": "Производственная практика (4 кредита)",
+      "note": "в соответствии с учебными планами образовательных программ"
+    },
+    {
+      "id": "practice_prod_6",
+      "doc": "b13",
+      "courses": [
+        "2",
+        "3"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-06-01",
+      "end": "2027-07-12",
+      "title": "Производственная практика (6 кредитов)",
+      "note": "в соответствии с учебными планами образовательных программ"
+    },
+    {
+      "id": "practice_prod_7",
+      "doc": "b13",
+      "courses": [
+        "2",
+        "3"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-06-01",
+      "end": "2027-07-17",
+      "title": "Производственная практика (7 кредитов)",
+      "note": "в соответствии с учебными планами образовательных программ"
+    },
+    {
+      "id": "practice_report_4",
+      "doc": "b13",
+      "courses": [
+        "2",
+        "3"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-06-28",
+      "end": "2027-07-10",
+      "title": "Отчёт по производственной практике (4 кредита)"
+    },
+    {
+      "id": "practice_report_6",
+      "doc": "b13",
+      "courses": [
+        "2",
+        "3"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-07-12",
+      "end": "2027-07-24",
+      "title": "Отчёт по производственной практике (6 кредитов)"
+    },
+    {
+      "id": "practice_report_7",
+      "doc": "b13",
+      "courses": [
+        "2",
+        "3"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-07-19",
+      "end": "2027-07-24",
+      "title": "Отчёт по производственной практике (7 кредитов)"
+    },
+    {
+      "id": "military_camp",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "military",
+      "remind": false,
+      "start": "2027-06-14",
+      "end": "2027-07-24",
+      "title": "Учебный сбор (профессиональная практика) обучающихся военной кафедры"
+    },
+    {
+      "id": "summer_semester",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "summer",
+      "remind": false,
+      "start": "2027-06-14",
+      "end": "2027-07-24",
+      "title": "Летний семестр"
+    },
+    {
+      "id": "transfer_summer",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "admin",
+      "remind": false,
+      "start": "2027-06-14",
+      "end": "2027-08-14",
+      "title": "Приём заявлений на внутренние и внешние переводы, восстановления"
+    },
+    {
+      "id": "summer_recredit",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "admin",
+      "remind": false,
+      "start": "2027-07-05",
+      "end": "2027-08-02",
+      "title": "Перезачёт кредитов летнего семестра"
+    },
+    {
+      "id": "holidays_summer",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "holidays",
+      "remind": false,
+      "start": "2027-06-14",
+      "end": "2027-08-31",
+      "title": "Летние каникулы (по учебным планам ОП)"
+    },
+    {
+      "id": "g_iup_fall",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2026-08-24",
+      "end": "2026-09-05",
+      "title": "ИУП: заполнение для переведённых и восстановленных, корректировки — в Platonus"
+    },
+    {
+      "id": "g_theory_fall",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "study",
+      "remind": false,
+      "start": "2026-09-01",
+      "end": "2026-12-12",
+      "title": "Теоретическое обучение, осенний семестр"
+    },
+    {
+      "id": "g_thesis_topics",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2026-09-07",
+      "end": "2026-10-19",
+      "title": "Определение тем дипломных работ и проектов"
+    },
+    {
+      "id": "g_thesis_approve",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2026-10-19",
+      "end": "2026-10-31",
+      "title": "Утверждение тем дипломных работ и проектов"
+    },
+    {
+      "id": "g_midterm1_fall",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2026-10-19",
+      "end": "2026-10-24",
+      "title": "Рубежный контроль 1 (осень)"
+    },
+    {
+      "id": "g_midterm2_fall",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2026-12-07",
+      "end": "2026-12-12",
+      "title": "Рубежный контроль 2 (осень)"
+    },
+    {
+      "id": "g_session_winter",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "session",
+      "remind": true,
+      "start": "2026-12-14",
+      "end": "2026-12-31",
+      "title": "Зимняя экзаменационная сессия"
+    },
+    {
+      "id": "g_holidays_winter",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "holidays",
+      "remind": false,
+      "start": "2027-01-01",
+      "end": "2027-01-16",
+      "title": "Зимние каникулы"
+    },
+    {
+      "id": "g_iup_spring",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2027-01-04",
+      "end": "2027-01-16",
+      "title": "Корректировка ИУП в Platonus (весна)"
+    },
+    {
+      "id": "g_thesis_fix",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "thesis",
+      "remind": false,
+      "start": "2027-01-05",
+      "end": "2027-01-16",
+      "title": "Внесение корректировок в темы дипломных работ"
+    },
+    {
+      "id": "g_theory_spring",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "study",
+      "remind": false,
+      "start": "2027-01-18",
+      "end": "2027-03-13",
+      "title": "Теоретическое обучение, весенний семестр"
+    },
+    {
+      "id": "g_midterm_spring",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2027-03-15",
+      "end": "2027-03-27",
+      "title": "Рубежный контроль 1 и 2 (модульно)"
+    },
+    {
+      "id": "g_session_spring",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "session",
+      "remind": true,
+      "start": "2027-03-29",
+      "end": "2027-04-03",
+      "title": "Весенняя экзаменационная сессия"
+    },
+    {
+      "id": "g_fx_spring",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "fx",
+      "remind": true,
+      "start": "2027-04-05",
+      "end": "2027-04-10",
+      "title": "Пересдача экзаменов (FX)"
+    },
+    {
+      "id": "g_nonformal",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "admin",
+      "remind": false,
+      "start": "2027-04-05",
+      "end": "2027-04-10",
+      "title": "Перезачёт неформального образования (Coursera)"
+    },
+    {
+      "id": "g_prediploma",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "practice",
+      "remind": true,
+      "start": "2027-04-12",
+      "end": "2027-05-15",
+      "title": "Преддипломная практика"
+    },
+    {
+      "id": "g_reports",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "practice",
+      "remind": true,
+      "start": "2027-05-17",
+      "end": "2027-05-22",
+      "title": "Сдача отчётов по преддипломной практике"
+    },
+    {
+      "id": "g_thesis_format",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2027-05-17",
+      "end": "2027-05-31",
+      "title": "Оформление дипломных проектов и проверка на плагиат"
+    },
+    {
+      "id": "g_final",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "final",
+      "remind": true,
+      "start": "2027-06-01",
+      "end": "2027-06-19",
+      "title": "Итоговая аттестация"
+    },
+    {
+      "id": "g_ext_topics",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "thesis",
+      "remind": false,
+      "start": "2026-09-01",
+      "end": "2026-09-19",
+      "title": "Для продливших срок обучения (зимняя итоговая аттестация): определение и утверждение тем дипломных работ"
+    },
+    {
+      "id": "g_ext_practice",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2026-09-21",
+      "end": "2026-10-24",
+      "title": "Для продливших срок обучения: преддипломная практика"
+    },
+    {
+      "id": "g_ext_reports",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2026-10-26",
+      "end": "2026-11-07",
+      "title": "Для продливших срок обучения: сдача отчётов"
+    },
+    {
+      "id": "g_ext_format",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "thesis",
+      "remind": false,
+      "start": "2026-11-09",
+      "end": "2026-11-30",
+      "title": "Для продливших срок обучения: оформление дипломных проектов и проверка на плагиат"
+    },
+    {
+      "id": "g_ext_defense",
+      "doc": "b4",
+      "courses": [
+        "4"
+      ],
+      "kind": "final",
+      "remind": false,
+      "start": "2026-12-01",
+      "end": "2026-12-12",
+      "title": "Для продливших срок обучения: защита дипломных работ / комплексный экзамен"
+    },
+    {
+      "id": "hol_republic",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "m2",
+        "m1w26",
+        "m1w27",
+        "m2w25"
+      ],
+      "kind": "holiday",
+      "remind": false,
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "title": "День Республики (выходной)"
+    },
+    {
+      "id": "hol_independence",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "m2",
+        "m1w26",
+        "m1w27",
+        "m2w25"
+      ],
+      "kind": "holiday",
+      "remind": false,
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "title": "День Независимости (выходной)"
+    },
+    {
+      "id": "hol_newyear",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "m2",
+        "m1w26",
+        "m1w27",
+        "m2w25"
+      ],
+      "kind": "holiday",
+      "remind": false,
+      "start": "2027-01-01",
+      "end": "2027-01-02",
+      "title": "Новый год (выходные)"
+    },
+    {
+      "id": "hol_christmas",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "m2",
+        "m1w26",
+        "m1w27",
+        "m2w25"
+      ],
+      "kind": "holiday",
+      "remind": false,
+      "start": "2027-01-07",
+      "end": "2027-01-07",
+      "title": "Рождество Христово (выходной)"
+    },
+    {
+      "id": "hol_march8",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "m2",
+        "m1w26",
+        "m1w27",
+        "m2w25"
+      ],
+      "kind": "holiday",
+      "remind": false,
+      "start": "2027-03-08",
+      "end": "2027-03-08",
+      "title": "Международный женский день (выходной)"
+    },
+    {
+      "id": "hol_constitution",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "m2",
+        "m1w26",
+        "m1w27",
+        "m2w25"
+      ],
+      "kind": "holiday",
+      "remind": false,
+      "start": "2027-03-15",
+      "end": "2027-03-15",
+      "title": "День Конституции (выходной)"
+    },
+    {
+      "id": "hol_nauryz",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "m2",
+        "m1w26",
+        "m1w27",
+        "m2w25"
+      ],
+      "kind": "holiday",
+      "remind": false,
+      "start": "2027-03-22",
+      "end": "2027-03-24",
+      "title": "Наурыз (выходные)"
+    },
+    {
+      "id": "hol_unity",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "m2",
+        "m1w26",
+        "m1w27",
+        "m2w25"
+      ],
+      "kind": "holiday",
+      "remind": false,
+      "start": "2027-05-01",
+      "end": "2027-05-01",
+      "title": "День единства народа Казахстана (выходной)"
+    },
+    {
+      "id": "hol_defender",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "m2",
+        "m1w26",
+        "m1w27",
+        "m2w25"
+      ],
+      "kind": "holiday",
+      "remind": false,
+      "start": "2027-05-07",
+      "end": "2027-05-07",
+      "title": "День защитника Отечества (выходной)"
+    },
+    {
+      "id": "hol_victory",
+      "doc": "b13",
+      "courses": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "m2",
+        "m1w26",
+        "m1w27",
+        "m2w25"
+      ],
+      "kind": "holiday",
+      "remind": false,
+      "start": "2027-05-09",
+      "end": "2027-05-09",
+      "title": "День Победы (выходной)"
+    },
+    {
+      "id": "m2_iup_fall",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2026-08-24",
+      "end": "2026-09-05",
+      "title": "ИУП: заполнение и корректировка в Platonus"
+    },
+    {
+      "id": "m2_theory",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "study",
+      "remind": false,
+      "start": "2026-09-01",
+      "end": "2026-12-12",
+      "title": "Теоретическое обучение, НИРМ, стажировка, диссертация, педагогическая практика"
+    },
+    {
+      "id": "m2_mid1",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2026-10-19",
+      "end": "2026-10-24",
+      "title": "Рубежный контроль 1"
+    },
+    {
+      "id": "m2_mid2",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2026-12-07",
+      "end": "2026-12-12",
+      "title": "Рубежный контроль 2"
+    },
+    {
+      "id": "m2_nirm_report1",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2026-12-14",
+      "end": "2026-12-19",
+      "title": "Отчёт по научно-исследовательской работе магистранта"
+    },
+    {
+      "id": "m2_session",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "session",
+      "remind": true,
+      "start": "2026-12-14",
+      "end": "2026-12-31",
+      "title": "Зимняя экзаменационная сессия"
+    },
+    {
+      "id": "m2_research_practice1",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2026-12-21",
+      "end": "2027-01-16",
+      "title": "Исследовательская практика по ОП",
+      "note": "В документе год начала указан с опечаткой (длительность — 4 нед.); дата поправлена по длительности — уточняйте в Офисе регистратора."
+    },
+    {
+      "id": "m2_holidays",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "holidays",
+      "remind": false,
+      "start": "2027-01-04",
+      "end": "2027-01-16",
+      "title": "Зимние каникулы"
+    },
+    {
+      "id": "m2_iup_spring",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2027-01-11",
+      "end": "2027-01-16",
+      "title": "ИУП: заполнение и корректировка в Platonus (весна)"
+    },
+    {
+      "id": "m2_research_practice2",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-01-18",
+      "end": "2027-02-13",
+      "title": "Исследовательская практика по ОП"
+    },
+    {
+      "id": "m2_research_report",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "practice",
+      "remind": true,
+      "start": "2027-01-18",
+      "end": "2027-01-30",
+      "title": "Сдача отчёта по исследовательской практике"
+    },
+    {
+      "id": "m2_nirm_internship",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "thesis",
+      "remind": false,
+      "start": "2027-02-15",
+      "end": "2027-04-10",
+      "title": "НИРМ, научная стажировка",
+      "note": "В документе год начала указан с опечаткой (длительность — 8 нед.); дата поправлена по длительности — уточняйте в Офисе регистратора."
+    },
+    {
+      "id": "m2_research_report2",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-02-15",
+      "end": "2027-02-27",
+      "title": "Сдача отчёта по исследовательской практике"
+    },
+    {
+      "id": "m2_nirm_report2",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2027-04-12",
+      "end": "2027-04-17",
+      "title": "Отчёт по научно-исследовательской работе магистранта"
+    },
+    {
+      "id": "m2_plagiarism",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2027-05-03",
+      "end": "2027-05-15",
+      "title": "Проверка диссертаций на плагиат"
+    },
+    {
+      "id": "m2_defense",
+      "doc": "m2",
+      "courses": [
+        "m2"
+      ],
+      "kind": "final",
+      "remind": true,
+      "start": "2027-05-17",
+      "end": "2027-05-31",
+      "title": "Защита магистерских диссертаций"
+    },
+    {
+      "id": "m1w26_iup_fall",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2026-08-24",
+      "end": "2026-09-05",
+      "title": "ИУП: заполнение и корректировка в Platonus"
+    },
+    {
+      "id": "m1w26_theory_fall",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "study",
+      "remind": false,
+      "start": "2026-09-01",
+      "end": "2026-12-12",
+      "title": "Теоретическое обучение (2-й семестр)"
+    },
+    {
+      "id": "m1w26_mid1_fall",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2026-10-19",
+      "end": "2026-10-24",
+      "title": "Рубежный контроль 1"
+    },
+    {
+      "id": "m1w26_mid2_fall",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2026-12-07",
+      "end": "2026-12-12",
+      "title": "Рубежный контроль 2"
+    },
+    {
+      "id": "m1w26_nirm",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "thesis",
+      "remind": false,
+      "start": "2026-11-30",
+      "end": "2026-12-27",
+      "title": "Научно-исследовательская работа магистранта"
+    },
+    {
+      "id": "m1w26_session_winter",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "session",
+      "remind": true,
+      "start": "2026-12-14",
+      "end": "2026-12-31",
+      "title": "Зимняя экзаменационная сессия"
+    },
+    {
+      "id": "m1w26_nirm_report",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2026-12-28",
+      "end": "2027-01-04",
+      "title": "Отчёт по НИРМ"
+    },
+    {
+      "id": "m1w26_fx",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "fx",
+      "remind": true,
+      "start": "2027-01-04",
+      "end": "2027-01-09",
+      "title": "Пересдача экзаменов (FX)"
+    },
+    {
+      "id": "m1w26_holidays_winter",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "holidays",
+      "remind": false,
+      "start": "2027-01-04",
+      "end": "2027-01-16",
+      "title": "Зимние каникулы"
+    },
+    {
+      "id": "m1w26_iup_spring",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2027-01-11",
+      "end": "2027-01-16",
+      "title": "ИУП: заполнение и корректировка в Platonus (3-й семестр)"
+    },
+    {
+      "id": "m1w26_theory_spring",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "study",
+      "remind": false,
+      "start": "2027-01-18",
+      "end": "2027-05-08",
+      "title": "Теоретическое обучение, НИРМ, стажировка, диссертация (3-й семестр)"
+    },
+    {
+      "id": "m1w26_research_practice",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-02-01",
+      "end": "2027-02-27",
+      "title": "Исследовательская практика по ОП"
+    },
+    {
+      "id": "m1w26_research_report",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "practice",
+      "remind": true,
+      "start": "2027-03-01",
+      "end": "2027-03-13",
+      "title": "Сдача отчёта по исследовательской практике"
+    },
+    {
+      "id": "m1w26_mid1_spring",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2027-03-09",
+      "end": "2027-03-13",
+      "title": "Рубежный контроль 1 (весна)"
+    },
+    {
+      "id": "m1w26_mid2_spring",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2027-04-26",
+      "end": "2027-05-08",
+      "title": "Рубежный контроль 2 (весна)"
+    },
+    {
+      "id": "m1w26_session_spring",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "session",
+      "remind": true,
+      "start": "2027-05-10",
+      "end": "2027-05-31",
+      "title": "Весенняя экзаменационная сессия"
+    },
+    {
+      "id": "m1w26_nirm_report2",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2027-05-10",
+      "end": "2027-05-15",
+      "title": "Отчёт по НИРМ"
+    },
+    {
+      "id": "m1w26_summer_reg",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2027-06-01",
+      "end": "2027-06-12",
+      "title": "Регистрация на летний семестр"
+    },
+    {
+      "id": "m1w26_summer",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "summer",
+      "remind": false,
+      "start": "2027-06-15",
+      "end": "2027-07-24",
+      "title": "Летний семестр"
+    },
+    {
+      "id": "m1w26_summer_recredit",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "admin",
+      "remind": false,
+      "start": "2027-06-28",
+      "end": "2027-07-24",
+      "title": "Перезачёт кредитов летнего семестра"
+    },
+    {
+      "id": "m1w26_holidays_summer",
+      "doc": "m1w26",
+      "courses": [
+        "m1w26"
+      ],
+      "kind": "holidays",
+      "remind": false,
+      "start": "2027-06-01",
+      "end": "2027-08-31",
+      "title": "Летние каникулы"
+    },
+    {
+      "id": "m2w25_iup",
+      "doc": "m2w25",
+      "courses": [
+        "m2w25"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2026-08-24",
+      "end": "2026-09-05",
+      "title": "ИУП: заполнение и корректировка в Platonus"
+    },
+    {
+      "id": "m2w25_theory",
+      "doc": "m2w25",
+      "courses": [
+        "m2w25"
+      ],
+      "kind": "study",
+      "remind": false,
+      "start": "2026-09-01",
+      "end": "2026-12-12",
+      "title": "Теоретическое обучение, НИРМ, стажировка, диссертация (4-й семестр)"
+    },
+    {
+      "id": "m2w25_research_practice",
+      "doc": "m2w25",
+      "courses": [
+        "m2w25"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2026-09-01",
+      "end": "2026-09-26",
+      "title": "Исследовательская практика по ОП"
+    },
+    {
+      "id": "m2w25_research_report",
+      "doc": "m2w25",
+      "courses": [
+        "m2w25"
+      ],
+      "kind": "practice",
+      "remind": true,
+      "start": "2026-09-28",
+      "end": "2026-10-10",
+      "title": "Сдача отчёта по исследовательской практике"
+    },
+    {
+      "id": "m2w25_nirm_report",
+      "doc": "m2w25",
+      "courses": [
+        "m2w25"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2026-12-14",
+      "end": "2026-12-19",
+      "title": "Отчёт по НИРМ"
+    },
+    {
+      "id": "m2w25_plagiarism",
+      "doc": "m2w25",
+      "courses": [
+        "m2w25"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2026-12-14",
+      "end": "2026-12-19",
+      "title": "Проверка диссертаций на плагиат"
+    },
+    {
+      "id": "m2w25_defense",
+      "doc": "m2w25",
+      "courses": [
+        "m2w25"
+      ],
+      "kind": "final",
+      "remind": true,
+      "start": "2026-12-21",
+      "end": "2026-12-31",
+      "title": "Защита магистерских диссертаций"
+    },
+    {
+      "id": "m1w27_iup",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2027-01-11",
+      "end": "2027-01-16",
+      "title": "ИУП: заполнение и корректировка в Platonus"
+    },
+    {
+      "id": "m1w27_theory",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "study",
+      "remind": false,
+      "start": "2027-01-18",
+      "end": "2027-05-08",
+      "title": "Теоретическое обучение, НИРМ, педагогическая практика"
+    },
+    {
+      "id": "m1w27_mid1",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2027-03-09",
+      "end": "2027-03-13",
+      "title": "Рубежный контроль 1"
+    },
+    {
+      "id": "m1w27_mid2",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "midterm",
+      "remind": true,
+      "start": "2027-04-26",
+      "end": "2027-05-08",
+      "title": "Рубежный контроль 2"
+    },
+    {
+      "id": "m1w27_nirm_report",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "thesis",
+      "remind": true,
+      "start": "2027-05-10",
+      "end": "2027-05-15",
+      "title": "Отчёт по НИРМ"
+    },
+    {
+      "id": "m1w27_session",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "session",
+      "remind": true,
+      "start": "2027-05-10",
+      "end": "2027-05-31",
+      "title": "Весенняя экзаменационная сессия"
+    },
+    {
+      "id": "m1w27_research_practice",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-05-19",
+      "end": "2027-06-14",
+      "title": "Исследовательская практика по ОП",
+      "note": "В документе год начала указан с опечаткой (длительность — 4 нед.); дата поправлена по длительности — уточняйте в Офисе регистратора."
+    },
+    {
+      "id": "m1w27_research_report",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "practice",
+      "remind": false,
+      "start": "2027-06-16",
+      "end": "2027-06-21",
+      "title": "Сдача отчёта по исследовательской практике",
+      "note": "В документе год начала указан с опечаткой (длительность — 2 нед.); дата поправлена по длительности — уточняйте в Офисе регистратора."
+    },
+    {
+      "id": "m1w27_summer_reg",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "registration",
+      "remind": true,
+      "start": "2027-06-01",
+      "end": "2027-06-12",
+      "title": "Регистрация на летний семестр"
+    },
+    {
+      "id": "m1w27_summer",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "summer",
+      "remind": false,
+      "start": "2027-06-15",
+      "end": "2027-07-24",
+      "title": "Летний семестр"
+    },
+    {
+      "id": "m1w27_summer_recredit",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "admin",
+      "remind": false,
+      "start": "2027-06-28",
+      "end": "2027-07-24",
+      "title": "Перезачёт кредитов летнего семестра"
+    },
+    {
+      "id": "m1w27_holidays_summer",
+      "doc": "m1w27",
+      "courses": [
+        "m1w27"
+      ],
+      "kind": "holidays",
+      "remind": false,
+      "start": "2027-06-01",
+      "end": "2027-08-31",
+      "title": "Летние каникулы"
+    }
+  ]
+}

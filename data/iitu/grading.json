@@ -1,0 +1,42 @@
+{
+  "_comment": "Правила оценивания для GPA-калькулятора — из официальных документов МУИТ (раздел «Нормативно-правовая база», сверено 2026-10-08): шкала — QM-02 «Академическая политика», ред. 8 от 25.11.2025, табл. 1 (с. 15); формула итоговой оценки и допуск — R-11 «Правила проведения текущего контроля, промежуточной и итоговой аттестации», п. 4.8–4.9; GPA — QM-02, п. 17; перевод с курса на курс — QM-02, п. 32.5–32.6. Порогов стипендии в QM-02 и R-11 нет — stipend оставлен пустым.",
+  "checked": "2026-10-08",
+  "source_title": "Академическая политика МУИТ QM-02 (ред. 8, 25.11.2025) и Правила R-11",
+  "source_url": "https://iitu.edu.kz/ru/about-university/regulatory-legal-framework/",
+  "documents": [
+    {"title": "QM-02 Академическая политика (ред. 8)", "url": "https://iitu.edu.kz/documents/4035/QM-02__%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0_%D1%80%D0%B5%D0%B4.8_1.pdf"},
+    {"title": "R-11 Правила текущего контроля, промежуточной и итоговой аттестации", "url": "https://iitu.edu.kz/documents/4061/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F_%D1%82%D0%B5%D0%BA%D1%83%D1%89%D0%B5%D0%B3%D0%BE_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F_%D1%83%D1%81%D0%BF%D0%B5%D0%B2_KD87tdO.pdf"}
+  ],
+  "final_weight_percent": 40,
+  "formula": "Итоговая = (РК1 + РК2) / 2 × 0,6 + экзамен × 0,4 (R-11, п. 4.9)",
+  "admission_min_percent": 50,
+  "admission_note": "Если (РК1 + РК2) / 2 меньше 50%, к итоговому экзамену не допускают (R-11, п. 4.8).",
+  "fx_range_percent": [25, 49],
+  "pass_total_percent": 50,
+  "pass_note": "Положительные оценки — от D (50%). FX (25–49%) — можно пересдать итоговый контроль на платной основе один раз до конца учебного года (QM-02, п. 13.3).",
+  "letter_scale": [
+    {"letter": "A", "points": 4.0, "min_percent": 95, "max_percent": 100, "traditional": "Отлично"},
+    {"letter": "A-", "points": 3.67, "min_percent": 90, "max_percent": 94, "traditional": "Отлично"},
+    {"letter": "B+", "points": 3.33, "min_percent": 85, "max_percent": 89, "traditional": "Хорошо"},
+    {"letter": "B", "points": 3.0, "min_percent": 80, "max_percent": 84, "traditional": "Хорошо"},
+    {"letter": "B-", "points": 2.67, "min_percent": 75, "max_percent": 79, "traditional": "Хорошо"},
+    {"letter": "C+", "points": 2.33, "min_percent": 70, "max_percent": 74, "traditional": "Хорошо"},
+    {"letter": "C", "points": 2.0, "min_percent": 65, "max_percent": 69, "traditional": "Удовлетворительно"},
+    {"letter": "C-", "points": 1.67, "min_percent": 60, "max_percent": 64, "traditional": "Удовлетворительно"},
+    {"letter": "D+", "points": 1.33, "min_percent": 55, "max_percent": 59, "traditional": "Удовлетворительно"},
+    {"letter": "D", "points": 1.0, "min_percent": 50, "max_percent": 54, "traditional": "Удовлетворительно"},
+    {"letter": "FX", "points": 0.5, "min_percent": 25, "max_percent": 49, "traditional": "Неудовлетворительно"},
+    {"letter": "F", "points": 0.0, "min_percent": 0, "max_percent": 24, "traditional": "Неудовлетворительно"}
+  ],
+  "letter_scale_source": "QM-02 Академическая политика, ред. 8 от 25.11.2025, таблица 1 (с. 15)",
+  "gpa_note": "Оценки «зачтено» (P) и «не зачтено» (NP) в GPA не учитываются; «Физическая культура» и практика — учитываются. Учитывается последняя оценка по дисциплине (QM-02, п. 13, 17).",
+  "transfer": [
+    {"to": "2 курс", "rule": "от 60 кредитов (или кредиты 1 курса по ОП) или минимальный GPA 1,67"},
+    {"to": "3 курс", "rule": "от 120 кредитов (или кредиты 2 курса по ОП) или минимальный GPA 2,00"},
+    {"to": "4 курс", "rule": "от 180 кредитов или минимальный GPA 2,20"},
+    {"to": "2 курс магистратуры", "rule": "от 60 кредитов или минимальный GPA 2,67"}
+  ],
+  "transfer_note": "Не выполнил требования — обладатель государственного гранта лишается гранта и может учиться дальше на платной основе (QM-02, п. 32.5–32.6).",
+  "stipend": null,
+  "stipend_note": "Порогов стипендии в Академической политике QM-02 и Правилах R-11 нет — уточняйте в Офисе регистратора или деканате."
+}

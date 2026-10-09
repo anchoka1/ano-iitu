@@ -1,0 +1,46 @@
+# Секреты
+.env
+
+# Виртуальное окружение Python
+.venv/
+venv/
+
+# Кэши Python и тестов
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Базы данных SQLite
+*.db
+*.db-journal
+*.sqlite3
+
+# Служебная метка «зависимости установлены»
+.venv-installed.txt
+
+# Node (на будущее, если перейдём на React)
+node_modules/
+
+# Логи
+*.log
+
+# Отчёты оценки
+evals/results/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Скачанные программы (cloudflared)
+tools/
+
+# Логи фонового запуска
+logs/
+# Копии базы перед миграциями
+*.db.bak-*
+
+# Пользовательские файлы: старые открытые фото (переносятся при запуске) и зашифрованное хранилище
+data/uploads/
+data/private/
